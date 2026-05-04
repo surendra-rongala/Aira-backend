@@ -9,7 +9,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const API_KEY = process.env.GEMINI_API_KEY;
+const API_KEY = process.env.AIzaSyBRSTDacs5ORl7JvGEsM9Bxl_8XsF2JVLI;
 
 app.post("/aira", async (req, res) => {
   try {
